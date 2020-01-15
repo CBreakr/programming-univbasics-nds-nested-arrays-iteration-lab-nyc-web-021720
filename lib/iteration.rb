@@ -10,7 +10,7 @@ end
 def find_greater_pair(src)  
   greatest = []
   src.each do |arr|
-    greatest.push(arr.max)
+    greatest << arr.max
   end
   return greatest
 end
